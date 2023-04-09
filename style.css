@@ -80,6 +80,15 @@ section {
 }
 .price h3 {
   color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+}
+.price p {
+  display: flex;
+  align-items: center;
+}
+.price img{
+    margin-right: 0.3em;
 }
 hr {
   border: 1px solid hsl(215, 32%, 27%);
